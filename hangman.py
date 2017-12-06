@@ -71,7 +71,17 @@ def main():
   games_won = 0;
   
   # Create a list of words
-  words = ["bird", "escutcheon", "boat", "misery", "yellow", "appartment", "development", "idiot", "nincompoop"]
+  words = [
+    "bird",
+    "escutcheon",
+    "boat",
+    "misery",
+    "yellow",
+    "appartment",
+    "development",
+    "idiot",
+    "nincompoop"
+  ]
   
   # Print welcome message
   print('''

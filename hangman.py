@@ -1,5 +1,14 @@
 import random
+import os
 
+
+def clear():
+  if os.name == 'nt':
+    os.system('cls')
+  else:
+    os.system('clear')
+    
+    
 def print_wrong(g):
   print("Not in solution:")
   for c in g:
@@ -49,6 +58,7 @@ def game(word):
       tries += 1
     
     # Print eveything back
+    clear()
     print_wrong(wrong_guesses);
     print_found(word, found_letters);
     

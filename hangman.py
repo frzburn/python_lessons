@@ -3,7 +3,7 @@ import random
 def print_wrong(g):
   print("Not in solution:")
   for c in g:
-    print("{} ".format(c))
+    print("{} ".format(c), end='')
     
   print("\n" * 3)
     

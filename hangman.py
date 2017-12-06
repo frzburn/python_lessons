@@ -94,7 +94,7 @@ def main():
   
   while play_again != 'n':
     # Pick a random word from the list
-    word = words[random.randint(0, len(words) - 1)]
+    word = random.choice(words)
     
     print()
     print('_' * len(word))
